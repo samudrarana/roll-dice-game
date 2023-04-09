@@ -1,11 +1,11 @@
 let player1 = "Player 1";
 let player2 = "Player 2";
 function editNames(){
-    player1 = prompt("Enter the Player1 Name:");
-    player2 = prompt("Enter the player2 Name:");
+    player1 = prompt("Enter Player1 Name:");
+    player2 = prompt("Enter player2 Name:");
 
     if(player1.length<1 || player2.length<1){
-        alert("Please enter valid name for both the player!");
+        alert("Please enter valid names for both the players!");
         return;
     }
     document.querySelector("p.player1").innerHTML=player1;
